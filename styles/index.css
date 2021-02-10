@@ -25,6 +25,7 @@
     padding: 20px;
     margin: 12px;
     justify-content: center;
+    align-items: stretch;
 }
 .container3 {
     width: 468px;
@@ -68,53 +69,133 @@
 }
 .box-container1 {
     background-color: #9d0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
 }
 .box-container2 {
+    width: 50px;
     background-color: #9d0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
 }
 .box-container3 {
     background-color: #9d0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
 }
 .box-container4 {
     background-color: #9d0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
 }
 .box-container4-down {
     background-color: #9d0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
     align-self: flex-end;
 }
 .box-container5-stretch {
     background-color: #9d0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
 }
 .box-container5-small {
     background-color: #9d0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
     align-self: center;
+    align-items: flex-start;
 }
 .box-container6 {
+    width: 50px;
     background-color: #9d0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
 }
 .box-container6-wide {
+    width: 50px;
     background-color: #9d0208;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
     flex-grow: 2;
 }
 .box__txt {
     font-family: 'Roboto', sans-serif;
 }
 
+.content-circles {
+    width: 1152px;
+    height: 700px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #faa307;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.card-black1 {
+    width: 273px;
+    height: 220px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #03071E;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.card-black2 {
+    width: 273px;
+    height: 220px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #03071E;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.card-black3 {
+    width: 273px;
+    height: 220px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #03071E;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.card-red1 {
+    width: 273px;
+    height: 220px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #6a040f;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    flex-direction: row-reverse;
+}
+.card-red2 {
+    width: 273px;
+    height: 220px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #6a040f;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #748cab;
+    border-radius: 100%;
+}
