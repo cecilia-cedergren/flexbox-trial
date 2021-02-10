@@ -1,0 +1,120 @@
+.content-squares {
+    width: 1152px;
+    height: 700px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #370617;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1 {
+    width: 468px;
+    height: 160px;
+    display: flex;
+    background-color: #f48c06;
+    padding: 20px;
+    margin: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+.container2 {
+    width: 468px;
+    height: 160px;
+    display: flex;
+    background-color: #f48c06;
+    padding: 20px;
+    margin: 12px;
+    justify-content: center;
+}
+.container3 {
+    width: 468px;
+    height: 160px;
+    display: flex;
+    background-color: #f48c06;
+    padding: 20px;
+    margin: 12px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container4 {
+    width: 468px;
+    height: 160px;
+    display: flex;
+    background-color: #f48c06;
+    padding: 20px;
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.container5 {
+    width: 468px;
+    height: 160px;
+    display: flex;
+    background-color: #f48c06;
+    padding: 20px;
+    margin: 12px;
+    justify-content: space-evenly;
+}
+.container6 {
+    width: 468px;
+    height: 160px;
+    display: flex;
+    background-color: #f48c06;
+    padding: 20px;
+    margin: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.box-container1 {
+    background-color: #9d0208;
+    padding: 20px;
+    margin: 20px;
+}
+.box-container2 {
+    background-color: #9d0208;
+    padding: 20px;
+    margin: 20px;
+}
+.box-container3 {
+    background-color: #9d0208;
+    padding: 20px;
+    margin: 20px;
+}
+.box-container4 {
+    background-color: #9d0208;
+    padding: 20px;
+    margin: 20px;
+}
+.box-container4-down {
+    background-color: #9d0208;
+    padding: 20px;
+    margin: 20px;
+    align-self: flex-end;
+}
+.box-container5-stretch {
+    background-color: #9d0208;
+    padding: 20px;
+    margin: 20px;
+}
+.box-container5-small {
+    background-color: #9d0208;
+    padding: 20px;
+    margin: 20px;
+    align-self: center;
+}
+.box-container6 {
+    background-color: #9d0208;
+    padding: 20px;
+    margin: 20px;
+}
+.box-container6-wide {
+    background-color: #9d0208;
+    padding: 20px;
+    margin: 20px;
+    flex-grow: 2;
+}
+.box__txt {
+    font-family: 'Roboto', sans-serif;
+}
+
